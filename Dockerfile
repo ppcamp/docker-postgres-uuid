@@ -1,6 +1,6 @@
 FROM postgres:latest
 
-LABEL maintainer="Nicolas Bös"
+LABEL maintainer="ppcamp"
 LABEL description="Fix the uuid error in default docker"
 # Update
 RUN apt-get update >> /dev/null
