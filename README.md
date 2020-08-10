@@ -2,6 +2,7 @@
 The official [Postgres Docker image](https://registry.hub.docker.com/_/postgres/) [(Github)](https://github.com/docker-library/postgres) extended with the uuid-ossp extension of the postgresql-contrib package.
 
 _*Note*: This image it's just a shortcut for all process in background._
+_*Note²*: This change only will affect the others databases created after first docker init_
 
 The uuid extension is installed and enabled.
 
